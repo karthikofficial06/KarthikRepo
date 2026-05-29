@@ -1,0 +1,17 @@
+package com.omrbranch.pojo.searchproduct;
+
+import java.util.ArrayList;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class SearchProduct_Output_Pojo {
+	 public int status;
+	    public String message;
+	    public ArrayList<ProductList> data;
+	    public String currency;
+}
